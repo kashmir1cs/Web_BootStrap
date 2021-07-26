@@ -1,0 +1,59 @@
+<!-- bootstrap 사용법 1. 자료 다운 2. 링크 -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 반응형 웹으로 디자인하기 위한 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/bootstrap-3.3.2-dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css">
+    
+    <script src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+
+    <title>부트스트랩 그리드2</title>
+    <style>
+        div{border:1px solid gray;}
+    </style>
+</head>
+<body>
+    <!-- sm: 768px 이상 적용  -->
+    <!-- div tag 한번에 입력하는 방법 : "div.row>div.col-**-*+div.col-**-*" 입력 후 tab키 입력 -->
+    <div class="container">
+        <div class="row"> <!-- 줄 추가 -->
+            <div class="col-sm-12">
+                <div class="col-sm-6">col-sm-6</div>
+                <div class="col-sm-6">col-sm-6</div>    
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-8">col-xs-8</div>
+            <div class="col-xs-4">col-xs-4</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">col-sm-8</div>
+            <div class="col-sm-4">col-sm-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">col-md-8</div>
+            <div class="col-md-4">col-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">col-lg-8</div>
+            <div class="col-lg-4">col-lg-4</div>
+        </div>
+    </div>
+    <!-- container-fluid : 미디어쿼리 X, 가로 해상도에 관계없이 100% 가로폭 출력 -->
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="col-sm-6">col-sm-6</div>
+                <div class="col-sm-4">col-sm-4</div>
+                <div class="col-sm-2">col-sm-2</div>
+            </div>
+        </div>
+    </div> -->
+</body>
+</html>
